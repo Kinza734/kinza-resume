@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kinza Yahya | Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1c2b33;
+    --muted: #5a6b74;
+    --teal: #0b6e8a;
+    --teal-dark: #08475a;
+    --paper: #ffffff;
+    --bg: #eef3f5;
+    --line: #d5e0e5;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Figtree", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+    padding: 24px;
+  }
+  .page {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  header {
+    background: var(--teal-dark);
+    color: #fff;
+    padding: 40px 36px 32px;
+  }
+  header h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 3rem;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  }
+  header p.role { margin-top: 8px; font-size: 1.1rem; color: #bfe3ef; }
+  header p.contact { margin-top: 14px; font-size: 0.95rem; }
+  header a { color: #fff; }
+
+  /* 12-column grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  aside { grid-column: span 4; background: #f6fafb; border-right: 1px solid var(--line); padding: 28px 24px; }
+  main  { grid-column: span 8; padding: 28px 32px; }
+
+  h2 {
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 1.25rem;
+    color: var(--teal);
+    border-bottom: 2px solid var(--teal);
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+  }
+  section { margin-bottom: 26px; }
+  section:last-child { margin-bottom: 0; }
+  ul { padding-left: 18px; }
+  li { margin-bottom: 6px; }
+  aside li { font-size: 0.95rem; }
+  strong { font-weight: 600; }
+
+  .project { margin-bottom: 20px; padding: 14px 16px; border: 1px solid var(--line); border-left: 4px solid var(--teal); border-radius: 4px; }
+  .project:last-child { margin-bottom: 0; }
+  .project h3 { font-size: 1.05rem; }
+  .project .stack { font-size: 0.88rem; color: var(--muted); margin-bottom: 8px; }
+  .project li { font-size: 0.95rem; }
+
+  /* Tablet */
+  @media screen and (max-width: 900px) {
+    aside { grid-column: span 5; }
+    main  { grid-column: span 7; }
+    header h1 { font-size: 2.4rem; }
+  }
+
+  /* Mobile: both columns stack full width */
+  @media screen and (max-width: 768px) {
+    body { padding: 0; }
+    .page { border: none; border-radius: 0; }
+    aside, main { grid-column: span 12; }
+    aside { border-right: none; border-bottom: 1px solid var(--line); }
+    header { padding: 28px 20px 24px; }
+    header h1 { font-size: 2rem; }
+    main, aside { padding: 22px 20px; }
+  }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .page { border: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Kinza Yahya</h1>
+    <p class="role">Computer Science Student | AI &amp; Mobile App Development Enthusiast</p>
+    <p class="contact">0308-8414163 | <a href="mailto:kinzayahya44@gmail.com">kinzayahya44@gmail.com</a> | Muzaffarabad, AJK</p>
+  </header>
+
+  <div class="grid">
+    <aside>
+      <section>
+        <h2>Technical Skills</h2>
+        <ul>
+          <li><strong>Languages:</strong> C++, Dart, SQL, Object-Oriented Programming (OOP)</li>
+          <li><strong>Mobile:</strong> Flutter (UI, Provider state management, Go Router navigation)</li>
+          <li><strong>Backend &amp; Databases:</strong> Firebase (Authentication, Firestore, Realtime Database), MySQL, Hive (offline storage)</li>
+          <li><strong>AI &amp; Computer Vision:</strong> AI fundamentals, hand gesture recognition, sensor-based detection (accelerometer)</li>
+          <li><strong>Tools &amp; Concepts:</strong> Google Maps API, Geolocator, Git, Database Design, Problem Solving</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <p><strong>BS Computer Science</strong></p>
+        <p>National University of Sciences and Technology (NUST)</p>
+        <p>Currently in 5th Semester | CGPA: 3.27</p>
+      </section>
+
+      <section>
+        <h2>Certifications</h2>
+        <ul>
+          <li>Foundations: Data, Data, Everywhere</li>
+          <li>Programming for Everybody (Getting Started with Python)</li>
+          <li>Introduction to Front-End Development</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <ul>
+          <li>English</li>
+          <li>Urdu</li>
+        </ul>
+      </section>
+    </aside>
+
+    <main>
+      <section>
+        <h2>Profile</h2>
+        <p>Motivated Computer Science student at NUST with hands-on experience building AI and mobile applications end to end, from problem definition to a working, deployed product. Proficient in C++, SQL, and Flutter/Dart, with a growing focus on applying AI and computer vision to real-world safety and social problems. Recently built and tested a full-scale Flutter safety app on real hardware.</p>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+
+        <article class="project">
+          <h3>SafeSphere: AI-Ready Personal Safety &amp; Mental Health App</h3>
+          <p class="stack">Flutter, Dart, Firebase, Hive, Geolocator, Google Maps</p>
+          <ul>
+            <li>Designed and developed a full-scale cross-platform app combining real-time emergency response with mental health support, for university students and women's safety.</li>
+            <li>Built a one-tap SOS system with a shake-to-SOS detector (accelerometer-based), silent SOS, and a fake-call feature.</li>
+            <li>Implemented Safe Travel Mode with live GPS tracking and automated WhatsApp/SMS alerts to trusted contacts.</li>
+            <li>Developed a mental wellness module with mood tracking, private journal, guided breathing, and local crisis helplines.</li>
+            <li>Engineered an offline-first architecture with Hive so emergency contacts and core features work without internet.</li>
+            <li>Tested end-to-end on physical Android hardware with verified GPS, SMS, and authentication flows.</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <h3>AI Hand Gesture Recognition System</h3>
+          <p class="stack">Python, Computer Vision, AI</p>
+          <ul>
+            <li>Built an AI-based system that detects and interprets hand gestures in real time using computer vision.</li>
+            <li>Translated gesture input into recognizable commands, laying groundwork for touchless interaction.</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <h3>Blood Donation Management System</h3>
+          <p class="stack">SQL, MySQL, Database Design</p>
+          <ul>
+            <li>Designed a relational database to manage blood donor records and incoming blood requests.</li>
+            <li>Wrote optimized SQL queries for fast matching between donors and requesters.</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <h3>Student Registration System</h3>
+          <p class="stack">C++, Windows Forms</p>
+          <ul>
+            <li>Developed a desktop application for student data entry, record saving, and form management.</li>
+            <li>Implemented CRUD-style functionality with clean form handling and data validation.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <h2>Leadership &amp; Collaboration</h2>
+        <ul>
+          <li><strong>Team Leader, Alkhidmat Foundation Food Pack Project:</strong> Led a team of 6 members, coordinating food distribution activities for the community.</li>
+          <li><strong>Academic Project Collaboration:</strong> Worked with team members across multiple programming and database projects to deliver on shared deadlines.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+</div>
+</body>
+</html>
